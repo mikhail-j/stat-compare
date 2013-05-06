@@ -1,0 +1,60 @@
+body {
+	font: normal x-large auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	background: #EBEBEB;
+}
+
+td {
+	text-align: center;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #ffffff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+}
+
+td.alt {
+	background: #F2EF8A;
+	color: #797268;
+}
+
+th.default {
+	background: #FFFFFF;
+	color: #797268;
+}
+
+th.stat {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(../images/whitet.png) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.stata {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(../images/yellowt.png) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}
+
+table {
+	margin: auto 10px;
+	width: 300px;
+}
+
+div.sprites {
+	margin: auto 10px;
+	width: 300px;
+}
