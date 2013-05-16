@@ -24,8 +24,8 @@ def acrn(it):
         print "null"
         return
     else:
-        i = int(it)
-        return b0[i - 1][1:(len(b0[i]) - 1)]
+        i = int(it) - 1
+        return b0[i][1:(len(b0[i]) - 1)]
 
 def btdh(br,bx):#base stats
     s = '<tr><th colspan="2" class="default">' + br[0] + " Base Stats</th></tr>"
